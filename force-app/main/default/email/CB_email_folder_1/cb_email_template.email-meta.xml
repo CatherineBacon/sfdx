@@ -4,6 +4,6 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>cb email template</name>
     <style>none</style>
-    <subject>cb has created a new email</subject>
+    <subject>cb has created a new email template</subject>
     <type>text</type>
 </EmailTemplate>
