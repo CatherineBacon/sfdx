@@ -10,7 +10,7 @@
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
 
-        <rules>
+    <rules>
         <fullName>BooleanFilter</fullName>
         <active>false</active>
         <booleanFilter>1 AND 2 OR 3</booleanFilter>
@@ -41,7 +41,7 @@
             <type>FieldUpdate</type>
         </actions>
         <actions>
-            <fullName>Field_Update</name>
+            <name>Field_Update</name>
                 <type>FieldUpdate</type>
         </actions>
         <actions>
