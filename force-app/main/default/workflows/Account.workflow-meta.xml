@@ -9,7 +9,6 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
-
     <rules>
         <fullName>BooleanFilter</fullName>
         <active>false</active>
@@ -61,5 +60,18 @@
         <description>Custom Rule1 desc</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
-    
+    <rules>
+        <fullName>Account_workflow_rule</fullName>
+        <actions>
+            <name>Account_workflow_email</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>User.Title</field>
+            <operation>equals</operation>
+            <value>Dr</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
 </Workflow>
