@@ -8,15 +8,6 @@
     
     
     
-    <caseValues>
-        <plural>false</plural>
-        <value>CBCustomObject</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>CBCustomObjects</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
     <layouts>
         <layout>Test_feed-based layout</layout>
         <sections>
